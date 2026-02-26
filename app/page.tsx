@@ -6,26 +6,28 @@ export default function Page() {
 
 
 <section className="hero">
-  <span className="hero-badge">Media Kit 2026</span>
-  <h1>@hark<span>meij</span></h1>
-  <p className="hero-sub">Cycling content creator from the Netherlands. Short-form stories about the sport, the riders, and what happens when an amateur takes on the pros.</p>
+  <div className="section-inner">
+    <span className="hero-badge">Media Kit 2026</span>
+    <h1>@hark<span>meij</span></h1>
+    <p className="hero-sub">Cycling content creator from the Netherlands. Short-form stories about the sport, the riders, and what happens when an amateur takes on the pros.</p>
 
-  <div className="hero-stats">
-    <div>
-      <div className="hero-stat-number">15.7K</div>
-      <div className="hero-stat-label">Instagram Followers</div>
-    </div>
-    <div>
-      <div className="hero-stat-number">10M+</div>
-      <div className="hero-stat-label">Total Views</div>
-    </div>
-    <div>
-      <div className="hero-stat-number">#1</div>
-      <div className="hero-stat-label">Road To Not Getting Dropped Series</div>
-    </div>
-    <div>
-      <div className="hero-stat-number">12mo</div>
-      <div className="hero-stat-label">To 10M Views</div>
+    <div className="hero-stats">
+      <div>
+        <div className="hero-stat-number">15.7K</div>
+        <div className="hero-stat-label">Instagram Followers</div>
+      </div>
+      <div>
+        <div className="hero-stat-number">10M+</div>
+        <div className="hero-stat-label">Total Views</div>
+      </div>
+      <div>
+        <div className="hero-stat-number">#1</div>
+        <div className="hero-stat-label">Road To Not Getting Dropped Series</div>
+      </div>
+      <div>
+        <div className="hero-stat-number">12mo</div>
+        <div className="hero-stat-label">To 10M Views</div>
+      </div>
     </div>
   </div>
 
@@ -282,7 +284,7 @@ export default function Page() {
   <div className="tiers-grid">
     <div className="tier-card">
       <div className="tier-name">Campaign</div>
-      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>€·····</div>
+      <div className="tier-price">&euro;3&ndash;5K</div>
       <div className="tier-period">per campaign</div>
       <div className="tier-divider"></div>
       <ul className="tier-features">
@@ -295,7 +297,7 @@ export default function Page() {
     </div>
     <div className="tier-card featured">
       <div className="tier-name">Season Partner</div>
-      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>€·····</div>
+      <div className="tier-price">&euro;8&ndash;15K</div>
       <div className="tier-period">per year</div>
       <div className="tier-divider"></div>
       <ul className="tier-features">
@@ -309,7 +311,7 @@ export default function Page() {
     </div>
     <div className="tier-card">
       <div className="tier-name">Title Partner</div>
-      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>€·····</div>
+      <div className="tier-price">&euro;15&ndash;25K</div>
       <div className="tier-period">per year</div>
       <div className="tier-divider"></div>
       <ul className="tier-features">
@@ -337,10 +339,9 @@ export default function Page() {
       fontWeight: '700',
       textDecoration: 'none',
     }}>
-      View full rates &amp; media kit
+      View full media kit
       <span style={{fontSize: '18px'}}>→</span>
     </a>
-    <p style={{marginTop: '12px', fontSize: '13px', color: '#737373'}}>Access code required</p>
   </div>
   </div>
 </section>
@@ -358,7 +359,7 @@ export default function Page() {
         <div className="starter-info">
           <h4>Single Reel</h4>
           <p>One short-form video built around your product or brand. Fully produced, naturally integrated. Good for product launches, limited editions or just getting in front of a new audience.</p>
-          <span className="starter-price" style={{filter: 'blur(5px)', userSelect: 'none'}}>From ···</span>
+          <span className="starter-price">From &euro;750</span>
         </div>
       </div>
       <div className="starter-card">
@@ -366,7 +367,7 @@ export default function Page() {
         <div className="starter-info">
           <h4>Story Series</h4>
           <p>5 to 7 connected Instagram stories showing your product in a real riding or training context. Works well for local shops, caf&eacute;s, events or anything where a &ldquo;day in the life&rdquo; angle makes sense.</p>
-          <span className="starter-price" style={{filter: 'blur(5px)', userSelect: 'none'}}>From ···</span>
+          <span className="starter-price">From &euro;500</span>
         </div>
       </div>
       <div className="starter-card">
