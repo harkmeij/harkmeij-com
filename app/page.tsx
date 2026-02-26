@@ -7,26 +7,35 @@ export default function Page() {
 
 <section className="hero">
   <div className="section-inner">
-    <span className="hero-badge">Media Kit 2026</span>
-    <h1>@hark<span>meij</span></h1>
-    <p className="hero-sub">Cycling content creator from the Netherlands. Short-form stories about the sport, the riders, and what happens when an amateur takes on the pros.</p>
+    <div className="hero-layout">
+      <div className="hero-text">
+        <span className="hero-badge">Media Kit 2026</span>
+        <h1>@hark<span>meij</span></h1>
+        <p className="hero-sub">Cycling content creator from the Netherlands. Short-form stories about the sport, the riders, and what happens when an amateur takes on the pros.</p>
 
-    <div className="hero-stats">
-      <div>
-        <div className="hero-stat-number">15.7K</div>
-        <div className="hero-stat-label">Instagram Followers</div>
+        <div className="hero-stats">
+          <div>
+            <div className="hero-stat-number">15.7K</div>
+            <div className="hero-stat-label">Instagram Followers</div>
+          </div>
+          <div>
+            <div className="hero-stat-number">10M+</div>
+            <div className="hero-stat-label">Total Views</div>
+          </div>
+          <div>
+            <div className="hero-stat-number">#1</div>
+            <div className="hero-stat-label">Road To Not Getting Dropped Series</div>
+          </div>
+          <div>
+            <div className="hero-stat-number">12mo</div>
+            <div className="hero-stat-label">To 10M Views</div>
+          </div>
+        </div>
       </div>
-      <div>
-        <div className="hero-stat-number">10M+</div>
-        <div className="hero-stat-label">Total Views</div>
-      </div>
-      <div>
-        <div className="hero-stat-number">#1</div>
-        <div className="hero-stat-label">Road To Not Getting Dropped Series</div>
-      </div>
-      <div>
-        <div className="hero-stat-number">12mo</div>
-        <div className="hero-stat-label">To 10M Views</div>
+
+      <div className="hero-photo">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/images/portrait.jpg" alt="Mark Heij — @harkmeij" />
       </div>
     </div>
   </div>
@@ -99,6 +108,43 @@ export default function Page() {
     </div>
   </div>
 </section>
+
+
+{/* Photo ticker */}
+<div className="photo-ticker-section">
+  <div className="ticker-track">
+    {/* Set 1 */}
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-bw.jpg"         className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-tourtietema.jpg" className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-alpine.jpg"      className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-road.jpg"        className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-riding.jpg"      className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-selfie.jpg"      className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-pros.jpg"        className="ticker-photo" alt="" />
+    {/* Set 2 — duplicate for seamless loop */}
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-bw.jpg"         className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-tourtietema.jpg" className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-alpine.jpg"      className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-road.jpg"        className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-riding.jpg"      className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-selfie.jpg"      className="ticker-photo" alt="" />
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src="/images/shot-pros.jpg"        className="ticker-photo" alt="" />
+  </div>
+</div>
 
 
 <section className="section-dark">
