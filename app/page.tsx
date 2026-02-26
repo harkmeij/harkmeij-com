@@ -142,6 +142,7 @@ export default function Page() {
 
 
 <section className="section">
+  <div className="section-inner">
   <span className="section-label">Social Proof</span>
   <h2 className="section-title">Featured collaborations</h2>
   <p className="section-subtitle">A few of the names who&rsquo;ve featured on the channel so far.</p>
@@ -178,6 +179,7 @@ export default function Page() {
       <span className="collab-tag">Series S01</span>
     </div>
   </div>
+  </div>
 </section>
 
 
@@ -212,6 +214,7 @@ export default function Page() {
 
 
 <section className="section">
+  <div className="section-inner">
   <span className="section-label">Audience</span>
   <h2 className="section-title">Who&rsquo;s watching</h2>
   <p className="section-subtitle">Most cycling content reaches cyclists. This one doesn&rsquo;t.</p>
@@ -233,6 +236,7 @@ export default function Page() {
       <div className="audience-number">M/F</div>
       <div className="audience-label">Mixed audience, skews male but growing female base</div>
     </div>
+  </div>
   </div>
 </section>
 
@@ -270,6 +274,7 @@ export default function Page() {
 
 
 <section className="section">
+  <div className="section-inner">
   <span className="section-label">Partnerships</span>
   <h2 className="section-title">Ways to work together</h2>
   <p className="section-subtitle">I work with a small number of brands at a time so every partnership gets proper attention. These are the main ways it usually works.</p>
@@ -277,7 +282,7 @@ export default function Page() {
   <div className="tiers-grid">
     <div className="tier-card">
       <div className="tier-name">Campaign</div>
-      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>&euro;3&ndash;5K</div>
+      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>€·····</div>
       <div className="tier-period">per campaign</div>
       <div className="tier-divider"></div>
       <ul className="tier-features">
@@ -290,7 +295,7 @@ export default function Page() {
     </div>
     <div className="tier-card featured">
       <div className="tier-name">Season Partner</div>
-      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>&euro;8&ndash;15K</div>
+      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>€·····</div>
       <div className="tier-period">per year</div>
       <div className="tier-divider"></div>
       <ul className="tier-features">
@@ -304,7 +309,7 @@ export default function Page() {
     </div>
     <div className="tier-card">
       <div className="tier-name">Title Partner</div>
-      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>&euro;15&ndash;25K</div>
+      <div className="tier-price" style={{filter: 'blur(7px)', userSelect: 'none'}}>€·····</div>
       <div className="tier-period">per year</div>
       <div className="tier-divider"></div>
       <ul className="tier-features">
@@ -337,6 +342,7 @@ export default function Page() {
     </a>
     <p style={{marginTop: '12px', fontSize: '13px', color: '#737373'}}>Access code required</p>
   </div>
+  </div>
 </section>
 
 
@@ -352,7 +358,7 @@ export default function Page() {
         <div className="starter-info">
           <h4>Single Reel</h4>
           <p>One short-form video built around your product or brand. Fully produced, naturally integrated. Good for product launches, limited editions or just getting in front of a new audience.</p>
-          <span className="starter-price" style={{filter: 'blur(5px)', userSelect: 'none'}}>From &euro;750</span>
+          <span className="starter-price" style={{filter: 'blur(5px)', userSelect: 'none'}}>From ···</span>
         </div>
       </div>
       <div className="starter-card">
@@ -360,7 +366,7 @@ export default function Page() {
         <div className="starter-info">
           <h4>Story Series</h4>
           <p>5 to 7 connected Instagram stories showing your product in a real riding or training context. Works well for local shops, caf&eacute;s, events or anything where a &ldquo;day in the life&rdquo; angle makes sense.</p>
-          <span className="starter-price" style={{filter: 'blur(5px)', userSelect: 'none'}}>From &euro;500</span>
+          <span className="starter-price" style={{filter: 'blur(5px)', userSelect: 'none'}}>From ···</span>
         </div>
       </div>
       <div className="starter-card">
@@ -405,6 +411,7 @@ export default function Page() {
 
 
 <section className="section">
+  <div className="section-inner">
   <span className="section-label">Current Partners</span>
   <h2 className="section-title">In good company</h2>
   <p className="section-subtitle">Current brand partners.</p>
@@ -432,6 +439,7 @@ export default function Page() {
             <span>Lake</span>
           </div>
         </div>
+  </div>
 </section>
 
 
