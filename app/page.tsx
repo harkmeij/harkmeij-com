@@ -15,7 +15,7 @@ export default function Page() {
 
         <div className="hero-stats">
           <div>
-            <div className="hero-stat-number">15.7K</div>
+            <div className="hero-stat-number">15.8K</div>
             <div className="hero-stat-label">Instagram Followers</div>
           </div>
           <div>
@@ -50,24 +50,24 @@ export default function Page() {
 
 <div className="stats-bar">
   <div className="stat-item">
-    <div className="stat-number">~65%</div>
-    <div className="stat-label">Non-Cyclist Audience</div>
+    <div className="stat-number">1M+</div>
+    <div className="stat-label">Views in February</div>
   </div>
   <div className="stat-item">
-    <div className="stat-number">18–34</div>
-    <div className="stat-label">Primary Age Group</div>
+    <div className="stat-number">264K</div>
+    <div className="stat-label">Accounts Reached / Month</div>
   </div>
   <div className="stat-item">
-    <div className="stat-number">NL+BE</div>
-    <div className="stat-label">Core Market</div>
+    <div className="stat-number">62%</div>
+    <div className="stat-label">Non-Follower Reach</div>
   </div>
   <div className="stat-item">
     <div className="stat-number">&le;6</div>
-    <div className="stat-label">Active Partners Max</div>
+    <div className="stat-label">Brand Partners at a Time</div>
   </div>
   <div className="stat-item">
     <div className="stat-number">100%</div>
-    <div className="stat-label">Organic Growth</div>
+    <div className="stat-label">Organic — Zero Paid Promotion</div>
   </div>
 </div>
 
@@ -518,9 +518,42 @@ export default function Page() {
 </section>
 
 
+{/* FAQ */}
+<section className="section-cream">
+  <div className="section-inner">
+    <span className="section-label">FAQ</span>
+    <h2 className="section-title">Good questions.</h2>
+    <p className="section-subtitle">The ones most brands ask before we get started.</p>
+
+    <div className="faq-grid">
+      <div className="faq-item">
+        <h4>Can I review the content before it goes live?</h4>
+        <p>Yes — always. I share a preview before anything is published and you get one round of feedback on it. After that, creative control stays with me. That&rsquo;s what keeps the content feeling like content rather than an ad, which is better for both of us.</p>
+      </div>
+      <div className="faq-item">
+        <h4>How do you handle paid partnership disclosure?</h4>
+        <p>With a paid partnership tag, as required under Dutch advertising law. It doesn&rsquo;t bother me — I only work with brands I genuinely use or believe in, so the disclosure is just accurate. If I can&rsquo;t be genuine about a brand in my content, I won&rsquo;t take the partnership.</p>
+      </div>
+      <div className="faq-item">
+        <h4>Do you work with competing brands at the same time?</h4>
+        <p>Partners get category exclusivity. If you make cycling shoes, no other cycling shoe brand comes on board while we&rsquo;re working together. If I&rsquo;m ever in talks with a brand in your category, I&rsquo;ll tell you before anything is agreed.</p>
+      </div>
+      <div className="faq-item">
+        <h4>How long from brief to live content?</h4>
+        <p>Typically 2&ndash;3 weeks from an approved brief to published content. If the campaign is tied to a specific event, product launch or season, I&rsquo;d recommend booking 4&ndash;6 weeks ahead to make sure the timing lands right.</p>
+      </div>
+      <div className="faq-item">
+        <h4>Can we use the content on our own channels?</h4>
+        <p>Resharing on your own social channels is included as standard — post it, put it in your feed, use it in your stories. If you need it for paid ad placement or a media buy, that&rsquo;s a separate add-on. We agree the scope upfront so there are no surprises.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section className="cta">
-  <h2>Want to work together?</h2>
-  <p>I&rsquo;m currently open to new brand partnerships. Send a message and we&rsquo;ll take it from there.</p>
+  <h2>Let&rsquo;s work together.</h2>
+  <p>Partnership slots for 2026 are open. I keep it to 6 brands at a time &mdash; if you&rsquo;re interested, reach out before the calendar fills up.</p>
   <div className="cta-contact">
     <a href="mailto:mark@betterview.nl" className="primary">mark@betterview.nl</a>
     <a href="https://instagram.com/harkmeij">@harkmeij</a>
@@ -529,7 +562,7 @@ export default function Page() {
 </section>
 
 <div className="footer">
-  Confidential | @harkmeij Media Kit 2026 | Mark Heij / Betterview | Updated February 2026
+  @harkmeij Media Kit 2026 &nbsp;&middot;&nbsp; Mark Heij / Betterview &nbsp;&middot;&nbsp; Updated February 2026
 </div>
 
 
