@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
 import './globals.css'
+import ScrollProgress from './components/ScrollProgress'
+import StickyBadge from './components/StickyBadge'
+import SectionReveal from './components/SectionReveal'
+import HeroParallax from './components/HeroParallax'
+import AnimatedCounters from './components/AnimatedCounters'
 
 export const metadata: Metadata = {
   title: '@harkmeij — Media Kit 2026',
@@ -18,6 +23,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
+        <ScrollProgress />
+        <StickyBadge />
+        <SectionReveal />
+        <HeroParallax />
+        <AnimatedCounters />
         {children}
 
         {/* Google Analytics */}

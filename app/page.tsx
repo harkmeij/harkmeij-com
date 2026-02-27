@@ -74,8 +74,8 @@ export default function Page() {
 
 <section className="section-cream">
   <div className="section-inner">
-    <span className="section-label">About</span>
-    <h2 className="section-title">Making cycling content<br />that people actually watch.</h2>
+    <span className="section-label" data-reveal>About</span>
+    <h2 className="section-title" data-reveal data-reveal-delay="100">Making cycling content<br />that people actually watch.</h2>
     <p className="section-subtitle">Harkmeij makes cycling content that non-cyclists actually want to watch. Series, challenges, crossovers with pro riders — built for social, not just for the hardcore fans.</p>
 
     <div className="about-grid about-grid-photo">
@@ -149,8 +149,8 @@ export default function Page() {
 
 <section className="section-dark">
   <div className="section-inner">
-    <span className="section-label">The Growth Story</span>
-    <h2 className="section-title" style={{color: "var(--white)"}}>0 &rarr; 10M views in 12 months</h2>
+    <span className="section-label" data-reveal>The Growth Story</span>
+    <h2 className="section-title" data-reveal data-reveal-delay="100" style={{color: "var(--white)"}}>0 &rarr; 10M views in 12 months</h2>
     <p className="section-subtitle">Started with one video. No budget, no following, no paid promotion.</p>
 
     <div className="timeline">
@@ -191,8 +191,8 @@ export default function Page() {
 
 <section className="section">
   <div className="section-inner">
-  <span className="section-label">Social Proof</span>
-  <h2 className="section-title">Featured collaborations</h2>
+  <span className="section-label" data-reveal>Social Proof</span>
+  <h2 className="section-title" data-reveal data-reveal-delay="100">Featured collaborations</h2>
   <p className="section-subtitle">A few of the names who&rsquo;ve featured on the channel so far.</p>
 
   <div className="collab-grid">
@@ -233,8 +233,8 @@ export default function Page() {
 
 <section className="section-cream">
   <div className="section-inner">
-    <span className="section-label">Featured Content</span>
-    <h2 className="section-title">See it in action</h2>
+    <span className="section-label" data-reveal>Featured Content</span>
+    <h2 className="section-title" data-reveal data-reveal-delay="100">See it in action</h2>
     <p className="section-subtitle">A few of the Reels that have performed best. This is what the format looks like in practice.</p>
 
     <div className="embed-grid">
@@ -263,8 +263,8 @@ export default function Page() {
 
 <section className="section">
   <div className="section-inner">
-  <span className="section-label">Audience</span>
-  <h2 className="section-title">Who&rsquo;s watching</h2>
+  <span className="section-label" data-reveal>Audience</span>
+  <h2 className="section-title" data-reveal data-reveal-delay="100">Who&rsquo;s watching</h2>
   <p className="section-subtitle">Most cycling content reaches cyclists. This one doesn&rsquo;t.</p>
 
   <div className="audience-grid">
@@ -291,8 +291,8 @@ export default function Page() {
 
 <section className="section-cream">
   <div className="section-inner">
-    <span className="section-label">Content Formats</span>
-    <h2 className="section-title">The Road To Not Getting Dropped universe</h2>
+    <span className="section-label" data-reveal>Content Formats</span>
+    <h2 className="section-title" data-reveal data-reveal-delay="100">The Road To Not Getting Dropped universe</h2>
     <p className="section-subtitle">One core idea, a few different ways to play it out. What happens when an amateur takes on the pros?</p>
 
     <div className="series-grid">
@@ -323,8 +323,8 @@ export default function Page() {
 
 <section className="section">
   <div className="section-inner">
-  <span className="section-label">Partnerships</span>
-  <h2 className="section-title">Ways to work together</h2>
+  <span className="section-label" data-reveal>Partnerships</span>
+  <h2 className="section-title" data-reveal data-reveal-delay="100">Ways to work together</h2>
   <p className="section-subtitle">I work with a small number of brands at a time so every partnership gets proper attention. These are the main ways it usually works.</p>
 
   <div className="tiers-grid">
@@ -395,8 +395,8 @@ export default function Page() {
 
 <section className="section-cream">
   <div className="section-inner">
-    <span className="section-label">Getting Started</span>
-    <h2 className="section-title">Start with a single collab.</h2>
+    <span className="section-label" data-reveal>Getting Started</span>
+    <h2 className="section-title" data-reveal data-reveal-delay="100">Start with a single collab.</h2>
     <p className="section-subtitle">Not every brand needs a full-season commitment. These entry options let you test the content, see how your product lands with a cycling audience, and scale from there.</p>
 
     <div className="starter-grid">
@@ -432,8 +432,8 @@ export default function Page() {
 
 <section className="section-dark">
   <div className="section-inner">
-    <span className="section-label">Brand Values</span>
-    <h2 className="section-title" style={{color: "var(--white)"}}>What brands can expect</h2>
+    <span className="section-label" data-reveal>Brand Values</span>
+    <h2 className="section-title" data-reveal data-reveal-delay="100" style={{color: "var(--white)"}}>What brands can expect</h2>
     <p className="section-subtitle">What working together actually looks like.</p>
 
     <div className="values-grid">
@@ -459,8 +459,8 @@ export default function Page() {
 
 <section className="section">
   <div className="section-inner">
-  <span className="section-label">Current Partners</span>
-  <h2 className="section-title">In good company</h2>
+  <span className="section-label" data-reveal>Current Partners</span>
+  <h2 className="section-title" data-reveal data-reveal-delay="100">In good company</h2>
   <p className="section-subtitle">Current brand partners.</p>
 
   <div className="partners-grid">
@@ -492,8 +492,8 @@ export default function Page() {
 
 <section className="section-cream">
   <div className="section-inner">
-    <span className="section-label">Process</span>
-    <h2 className="section-title">How it works</h2>
+    <span className="section-label" data-reveal>Process</span>
+    <h2 className="section-title" data-reveal data-reveal-delay="100">How it works</h2>
     <p className="section-subtitle">How a typical collaboration goes from first contact to live content.</p>
 
     <div className="steps-grid">
@@ -521,8 +521,8 @@ export default function Page() {
 {/* FAQ */}
 <section className="section-cream">
   <div className="section-inner">
-    <span className="section-label">FAQ</span>
-    <h2 className="section-title">Good questions.</h2>
+    <span className="section-label" data-reveal>FAQ</span>
+    <h2 className="section-title" data-reveal data-reveal-delay="100">Good questions.</h2>
     <p className="section-subtitle">The ones most brands ask before we get started.</p>
 
     <div className="faq-grid">
@@ -552,8 +552,8 @@ export default function Page() {
 
 
 <section className="cta">
-  <h2>Let&rsquo;s work together.</h2>
-  <p>Partnership slots for 2026 are open. I keep it to 6 brands at a time &mdash; if you&rsquo;re interested, reach out before the calendar fills up.</p>
+  <h2 data-reveal>Let&rsquo;s work together.</h2>
+  <p data-reveal data-reveal-delay="100">Partnership slots for 2026 are open. I keep it to 6 brands at a time &mdash; if you&rsquo;re interested, reach out before the calendar fills up.</p>
   <div className="cta-contact">
     <a href="mailto:mark@betterview.nl" className="primary">mark@betterview.nl</a>
     <a href="https://instagram.com/harkmeij">@harkmeij</a>
