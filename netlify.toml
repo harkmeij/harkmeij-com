@@ -4,3 +4,15 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/full"
+  to = "https://markheij.com/media-kit/full"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://markheij.com/:splat"
+  status = 301
+  force = true
