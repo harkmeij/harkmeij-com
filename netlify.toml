@@ -3,7 +3,8 @@
   publish = "out"
 
 [build.environment]
-  NODE_VERSION = "20"
+  # Node 20 went end of life on 30 Apr 2026.
+  NODE_VERSION = "22"
 
 [[redirects]]
   from = "/full"
